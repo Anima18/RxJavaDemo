@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/erpAct_errorReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onErrorReturn"/>
+
+        <Button
+            android:id="@+id/erpAct_errorResumeNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onErrorResumeNext"/>
+
+        <Button
+            android:id="@+id/erpAct_exceptionResumeNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="onExceptionResumeNext"/>
+
+        <Button
+            android:id="@+id/erpAct_retry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Retry"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/tpAct_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Map"/>
+
+        <Button
+            android:id="@+id/tpAct_flatMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FlatMap"/>
+
+        <Button
+            android:id="@+id/tpAct_groupBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GroupBy"/>
+
+        <Button
+            android:id="@+id/tpAct_buffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buffer"/>
+
+        <Button
+            android:id="@+id/tpAct_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/cbopAct_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All"/>
+
+        <Button
+            android:id="@+id/cbopAct_amb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amb"/>
+
+        <Button
+        android:id="@+id/cbopAct_contains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contains"/>
+
+        <Button
+            android:id="@+id/cbopAct_exists"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exists"/>
+
+        <Button
+            android:id="@+id/cbopAct_isEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IsEmpty"/>
+
+        <Button
+            android:id="@+id/cbopAct_defaultIfEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="defaultIfEmpty"/>
+
+        <Button
+            android:id="@+id/cbopAct_sequenceEqual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sequenceEqual"/>
+
+        <Button
+            android:id="@+id/cbopAct_skipUntil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skipUntil"/>
+
+        <Button
+            android:id="@+id/cbopAct_skipWhile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skipUntil"/>
+
+        <Button
+            android:id="@+id/cbopAct_takeUntil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skipUntil"/>
+
+        <Button
+            android:id="@+id/cbopAct_takeWhile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="skipUntil"/>
+
+    </LinearLayout>
+</ScrollView>

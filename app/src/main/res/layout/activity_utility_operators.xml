@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/upAct_delay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="delay"/>
+
+        <Button
+            android:id="@+id/upAct_do"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do"/>
+
+        <Button
+            android:id="@+id/upAct_materialize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Materialize"/>
+
+        <Button
+            android:id="@+id/upAct_timeOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TimeOut"/>
+
+        <Button
+            android:id="@+id/upAct_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To"/>
+
+    </LinearLayout>
+</ScrollView>

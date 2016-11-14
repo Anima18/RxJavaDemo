@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/cbpAct_combine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Combine"/>
+
+        <Button
+            android:id="@+id/cbpAct_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join"/>
+
+        <Button
+            android:id="@+id/cbpAct_merge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merge"/>
+
+        <Button
+            android:id="@+id/cbpAct_startWith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="StartWith"/>
+
+        <Button
+            android:id="@+id/cbpAct_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zip"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/cpAct_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"/>
+
+        <Button
+            android:id="@+id/cpAct_empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="empty"/>
+
+        <Button
+            android:id="@+id/cpAct_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Error"/>
+
+        <Button
+            android:id="@+id/cpAct_never"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never"/>
+
+        <Button
+            android:id="@+id/cpAct_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From"/>
+
+        <Button
+            android:id="@+id/cpAct_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just"/>
+
+        <Button
+            android:id="@+id/cpAct_defer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Defer"/>
+
+        <Button
+            android:id="@+id/cpAct_interval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interval"/>
+
+        <Button
+            android:id="@+id/cpAct_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Range"/>
+
+        <Button
+            android:id="@+id/cpAct_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat"/>
+
+        <Button
+            android:id="@+id/cpAct_timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timer"/>
+    </LinearLayout>
+</ScrollView>
